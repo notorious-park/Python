@@ -1,0 +1,15 @@
+
+wordcloud - 한글 추가
+
+- 1) C:\Windows\Fonts 에서 맑은 고딕 폰트 찾기
+
+- 2) C:\Python\anaconda3\Lib\site-packages\pytagcloud\fonts 에 위에서 찾은 맑은 고딕 폰트 폭사
+
+- 3) C:\Python\anaconda3\Lib\site-packages\pytagcloud\fonts 에서
+     'fonts.json' 파일에 아래 내용 복사하여 추가
+
+     {
+		"name": "Korean",
+		"ttf": "malgun.ttf",
+		"web": "http://fonts.googleapis.com/css?family=Korean"
+	},

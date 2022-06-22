@@ -1,0 +1,16 @@
+1. 파일설치
+windows - https://www.oracle.com/technetwork/java/javase/downloads/
+두번째꺼!! (파일 설치 후 경로 설정 시, 'Program Files' 제외
+
+
+2. 제어판 - 시스템및보안 - 시스템 - 고급시스템설정 - 고급 - 환경변수
+2-1) 새로만들기
+      변수이름 : JAVAHOME
+      변수값   : C:\Java\jdk1.8.0
+2-2) 'Path' 찾고 클릭 후 편집
+      새로만들기 : %JAVA_HOME%\bin
+2-3) 새로만들기
+      변수이름 : CLASSPATH
+      변수값   : .; %JAVA_HOME%\lib;
+
+주피터 종료 후 재실행하면 됨
