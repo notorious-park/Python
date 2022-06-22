@@ -1,0 +1,12 @@
+x = 100
+y = 4
+z = 2
+print("x = ", x)
+print("y = ", y)
+print("x+y = ", x+y)
+print("x-y = ", x-y)
+print("x^2 = ", x**z)
+print("y^2 = ", y**z)
+print("x^2 / y^2 = ", x**z / y**z)
+print("x^y = ", x**y)
+print("x^2 * y^2 = ", x**z * y**z)
