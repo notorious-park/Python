@@ -1,0 +1,9 @@
+DEBUG:root:디버깅모드에서 프로그램 진단
+INFO:root:예상대로 작동하는지에 대한 확인
+WARNING:root:예상하지 못한 문제가 발생
+ERROR:root:프로그램 오류로 인해 SW기능이 제대로 수행하지 못함
+CRITICAL:root:심각한 에러로 즉각적인 대응이 요구
+ERROR:root:프로그램 오류로 인해 SW기능이 제대로 수행하지 못함
+CRITICAL:root:심각한 에러로 즉각적인 대응이 요구
+ERROR:root:프로그램 오류로 인해 SW기능이 제대로 수행하지 못함
+CRITICAL:root:심각한 에러로 즉각적인 대응이 요구
