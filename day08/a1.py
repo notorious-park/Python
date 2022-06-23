@@ -1,1 +1,0 @@
-fields = row.split(",")
